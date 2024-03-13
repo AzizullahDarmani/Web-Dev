@@ -1,0 +1,22 @@
+  <!-- Router oulet is place holder where all the components render based on the router state -->
+
+<ul class="items">
+  <li>
+    <a class="links" [routerLink]="['/home']">Home</a>
+  </li>
+  <li>
+    <a class="links" [routerLink]="['/about']">About</a>
+  </li>
+  <li>
+    <a class="links" [routerLink]="['/albums']">albums</a>
+  </li>
+  <li>
+    <a class="links" [routerLink]="['/albums/photos']">Photos</a>
+  </li>
+  <li>
+    <a class="links" [routerLink]="['/albums/detail']">Details</a>
+  </li>
+</ul>
+
+
+<router-outlet></router-outlet>
